@@ -32,12 +32,29 @@
 
                         <div class="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-5">
 
-                            {{ if .Site.Params.experience.enable }}
-                            {{ partial "experience.html" . }}
+                            {{ if .Site.Params.education.enable }}
+                            {{ partial "education.html" . }}
                             {{ end }}
 
-                            {{ if .Site.Params.projects.enable }}
-                            {{ partial "projects.html" . }}
+
+                            {{ if .Site.Params.awards.enable }}
+                            {{ partial "awards.html" . }}
+                            {{ end }}
+
+                            {{ if .Site.Params.publications.enable }}
+                            {{ partial "publications.html" . }}
+                            {{ end }}
+
+                            {{ if .Site.Params.research.enable }}
+                            {{ partial "research.html" . }}
+                            {{ end }}
+
+                            {{ if .Site.Params.teaching.enable }}
+                            {{ partial "teaching.html" . }}
+                            {{ end }}
+
+                            {{ if .Site.Params.experience.enable }}
+                            {{ partial "experience.html" . }}
                             {{ end }}
 
                             {{ if .Site.Params.information.enable }}

@@ -61,32 +61,37 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.skills.list]]
-        title = "Technical"
+        title = "Languages"
         [[params.skills.list.items]]
-        details = "JavaScript/Angular/React/Vue"
+        details = "Python"
         [[params.skills.list.items]]
-        details = "Python/Ruby/PHP"
+        details = "C/C++"
         [[params.skills.list.items]]
-        details = "Node.js/ASP.NET"
+        details = "Java"
         [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
+        details = "SQL/PostgreSQL"
         [[params.skills.list.items]]
-        details = "Object-oriented design"
-        [[params.skills.list.items]]
-        details = "Design and implement database structures"
-        [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
+        details = "Verilog, Assembly"
 
         [[params.skills.list]]
-        title = "Professional"
+        title = "Packages and Applications"
         [[params.skills.list.items]]
-        details = "Effective communication"
+        details = "Pytorch, Tensorflow, Sklearn"
         [[params.skills.list.items]]
-        details = "Team player"
+        details = "Scipy, Numpy, Pandas, Django"
         [[params.skills.list.items]]
-        details = "Strong problem solver"
+        details = "Modelsim, Proteus Design Suite"
+
+        [[params.skills.list]]
+        title = "Tools"
         [[params.skills.list.items]]
-        details = "Good time management"
+        details = "Git"
+        [[params.skills.list.items]]
+        details = "Docker"
+        [[params.skills.list.items]]
+        details = "Jira"
+        [[params.skills.list.items]]
+        details = "LaTeX"
 
 
 
@@ -99,13 +104,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        university = "University College London"
-        dates = "2010 - 2011"
+        degree = "Bachelor in Computer Engineering"
+        university = "Sharif University of Technology"
+        dates = "Sep. 2019 - Present"
         [[params.education.list]]
-        degree = "BSc Maths and Physics"
-        university = "Imperial College London"
-        dates = "2007 - 2010"
+        degree = "Diploma of Mathematics"
+        university = "Shahid Beheshti School, National Organization for Development of Exceptional Talents (NODET)"
+        dates = "Sep. 2016 - Jun. 2019"
 
 
 
@@ -118,13 +123,14 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.awards.list]]
-        name = "Award Lorem Ipsum"
-        body = "Microsoft lorem ipsum"
+        name = "Full Scholarship"
+        body = "Received full scholarship (tuition waiver) from Sharif University of Technology for Bachelor's degree."
         date = "2019"
         [[params.awards.list]]
-        name = "Award Donec Sodales"
-        body = "Oracle Aenean"
-        date = "2017"
+        name = "University Entrance Exam"
+        body = "Ranked 6th nationwide among 160,000 participant in Iran National University Entrance Exam (Konkour) in Mathematics Branch"
+        date = "2019"
+        
 
 
 
@@ -137,11 +143,14 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.languages.list]]
-        name = "English"
+        name = "Farsi"
         level = "Native"
         [[params.languages.list]]
+        name = "English"
+        level = "Fluent"
+        [[params.languages.list]]
         name = "Spanish"
-        level = "Professional"
+        level = "Basic"
 
 
 
@@ -154,13 +163,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.interests.list]]
-        name = "Climbing"
+        name = "Running"
         [[params.interests.list]]
-        name = "Snowboarding"
+        name = "Astronomy"
         [[params.interests.list]]
         name = "Photography"
         [[params.interests.list]]
         name = "Travelling"
+        [[params.interests.list]]
+        name = "Movies"
 
 
 
@@ -171,91 +182,102 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "Summarise your career here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
+        text = "My name is Arshan Dalili. I am a Computer Engineering Bachelor's student at Sharif University of Technology, and I will graduate next year (4-year degree). My fields of interest are Natural Language Processing (NLP), Information Retrieval, Artificial Intelligence, and Machine Learning. I'm currently working on a journal paper about a novel model that labels sequences of the news based on Reinforcement Learning. The paper will soon be submitted to PLOS ONE. I'm also starting to work on a task in SemEval 2023."
 
 
 
 
 
 
+
+
+    [params.research]
+        enable = true
+
+        [[params.research.list]]
+        name = "Implemented Credible Early Detection Point model in Pytorch"
+        date = "2022"
+        body = "Implemented and published the CED model in Pytorch in order to train and use the model easier compared to paper's original old version of Tensorflow."
+        
+
+
+    [params.teaching]
+        enable = true
+
+        [[params.teaching.list]]
+        title = "Artificial Intelligence"
+        instructor = "Prof. Rohban"
+        date = "Sep. 2022 - Present"
+        [[params.teaching.list]]
+        title = "Modern Information Retrieval"
+        instructor = "Prof. Beigy"
+        date = "Sep. 2022 - Present"
+        [[params.teaching.list]]
+        title = "Linear Algebra"
+        instructor = "Dr. Ramezani"
+        date = "Sep. 2022 - Present"
+        [[params.teaching.list]]
+        title = "Computer Architecture"
+        instructor = "Prof. Sarbazi-Azad"
+        date = "Feb. 2022 - Sep. 2022"
+        [[params.teaching.list]]
+        title = "Computer Structure and Language"
+        instructor = "Prof. Sarbazi-Azad"
+        date = "Sep. 2021 - Feb. 2022"
+        [[params.teaching.list]]
+        title = "Fundamentals of Electrical and Electronic Circuits"
+        instructor = "Prof. Hemmatyar"
+        date = "Sep. 2021 - Feb. 2022"
+        [[params.teaching.list]]
+        title = "Advanced Programming"
+        instructor = "Dr. Salmani"
+        date = "Sep. 2020 - Feb. 2021"
 
 
     [params.experience]
         enable = true
 
         [[params.experience.list]]
-        title = "Senior Software Engineer"
-        dates = "2019 - Present"
-        company = "Google"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
-        [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
-        [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
-        [[params.experience.list.items]]
-        details = "Etiam ultricies nisi vel augue."
-
+        title = "Intern"
+        dates = "Sep. 2022 - Present"
+        company = "Jadooyeh-Fekr (Karma)"
+        location = "Sari, Iran"
+        details = "Working on Machine Learning systems"
         [[params.experience.list]]
-        title = "Lead Software Developer"
-        dates = "2016 - 2019"
-        company = "Apple"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
-        [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
-        [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
-
+        title = "Advisor, National University Entrance Exam (Konkour)"
+        dates = "Jun. 2020 - Feb. 2021"
+        company = "Various Institutions"
+        location = "Sari, Iran"
         [[params.experience.list]]
-        title = "Senior Software Developer"
-        dates = "2014 - 2016"
-        company = "Dropbox"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
+        title = "Tutoring, High School Mathematics"
+        dates = "Jun. 2020 - Feb. 2021"
+        company = "Various Institutions"
+        location = "Sari, Iran"
         [[params.experience.list]]
-        title = "Senior Developer"
-        dates = "2013 - 2014"
-        company = "Uber"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+        title = "Tutoring, High School Physics"
+        dates = "Jun. 2020 - Feb. 2021"
+        company = "Various Institutions"
+        location = "Sari, Iran"
 
-        [[params.experience.list]]
-        title = "Backend Developer"
-        dates = "2014 - 2016"
-        company = "Amazon"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
-        [[params.experience.list]]
-        title = "Frontend Developer"
-        dates = "2013 - 2014"
-        company = "Startup"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+        
 
 
 
 
 
 
-
-
-
-
-
-    [params.projects]
+    [params.publications]
         enable = true
 
-        [[params.projects.list]]
-        title = "Project Lorem Ipsum"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        [[params.publications.list]]
+        title = "Journal Paper - Early Fake News Detection Using Deep Reinforcement Learning"
+        meta = "Will be submitted to PLOS ONE in days"
+        tagline = "Designed a novel early news classification model using reinforcement learning to label sequences of news and outperform SOTA models."
 
-        [[params.projects.list]]
-        title = "Project Sed Fringilla"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
-        [[params.projects.list]]
-        title = "Project Praesent"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        [[params.publications.list]]
+        title = "Conference Paper - Clickbait Spoiling (B.Sc. Project, Ongoing)"
+        meta = "Will be submitted to SemEval 2023"
+        tagline = "A novel model for Clickbait Spoiling task."
 
 
 

@@ -3,14 +3,20 @@
 - id: education
   translation: Education
 - id: experiences
-  translation: Work Experience
+  translation: Working Experience
 - id: information
   translation: Information
 - id: interests
-  translation: Interests
+  translation: Extracurricular Activities
 - id: languages
   translation: Languages
 - id: projects
   translation: Projects
 - id: skills
   translation: Skills
+- id: publications
+  translation: Publications
+- id: research
+  translation: Research Experience
+- id: teaching
+  translation: Teaching Experience
