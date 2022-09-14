@@ -302,10 +302,19 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.information]
-        enable = false
+        enable = true
         [[params.information.list]]
-        title = "Interests"
-        details = "Running, Astronomy, Photography, Travelling, Video Games, Movies"
+        title = "Natural Language Processing"
+        details = ""
+        [[params.information.list]]
+        title = "Information Retrieval"
+        details = ""
+        [[params.information.list]]
+        title = "Social Networks"
+        details = ""
+        [[params.information.list]]
+        title = "Artificial Intelligence and Machine Learning"
+        details = ""
 
 
 

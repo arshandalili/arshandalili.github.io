@@ -45,6 +45,10 @@
                             {{ partial "publications.html" . }}
                             {{ end }}
 
+                            {{ if .Site.Params.information.enable }}
+                            {{ partial "information.html" . }}
+                            {{ end }}
+
                             {{ if .Site.Params.research.enable }}
                             {{ partial "research.html" . }}
                             {{ end }}
@@ -57,9 +61,7 @@
                             {{ partial "experience.html" . }}
                             {{ end }}
 
-                            {{ if .Site.Params.information.enable }}
-                            {{ partial "information.html" . }}
-                            {{ end }}
+                            
 
                         </div><!--//resume-main-->
 
