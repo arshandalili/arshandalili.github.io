@@ -226,10 +226,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         instructor = "Prof. Beigy"
         date = "Sep. 2022 - Present"
         [[params.teaching.list]]
-        title = "Linear Algebra"
-        instructor = "Dr. Ramezani"
-        date = "Sep. 2022 - Present"
-        [[params.teaching.list]]
         title = "Computer Architecture"
         instructor = "Prof. Sarbazi-Azad"
         date = "Feb. 2022 - Sep. 2022"
@@ -250,12 +246,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.experience]
         enable = true
 
-        [[params.experience.list]]
-        title = "Intern"
-        dates = "Sep. 2022 - Present"
-        company = "Jadooyeh-Fekr (Karma)"
-        location = "Sari, Iran"
-        details = "Working on Machine Learning systems"
         [[params.experience.list]]
         title = "Advisor, National University Entrance Exam (Konkour)"
         dates = "Jun. 2020 - Feb. 2021"
