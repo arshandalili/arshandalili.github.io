@@ -105,11 +105,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.education.list]]
         degree = "Bachelor in Computer Engineering"
-        university = "Sharif University of Technology"
+        university = "Sharif University of Technology, Tehran, Iran"
         dates = "Sep. 2019 - Present"
         [[params.education.list]]
         degree = "Diploma of Mathematics"
-        university = "Shahid Beheshti School, National Organization for Development of Exceptional Talents (NODET)"
+        university = "Shahid Beheshti School, National Organization for Development of Exceptional Talents (NODET), Sari, Iran"
         dates = "Sep. 2016 - Jun. 2019"
 
 
