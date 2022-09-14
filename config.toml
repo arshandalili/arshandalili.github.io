@@ -12,7 +12,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 [params]
-    author = "Arshan Dalili"
+    author = "Seyed Arshan Dalili"
     description = "Homepage"
 
 
@@ -24,7 +24,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.profile]
         enable = true
-        name = "Arshan Dalili"
+        name = "Seyed Arshan Dalili"
         tagline = "Undergraduate Student of Computer Engineering"
         avatar = "profile_pic.png"
 
@@ -185,7 +185,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "My name is Arshan Dalili. I am a Computer Engineering Bachelor's student at Sharif University of Technology, and I will graduate next year (4-year degree). My fields of interest are Natural Language Processing (NLP), Information Retrieval, Artificial Intelligence, and Machine Learning. I'm currently working on a journal paper about a novel model that labels sequences of the news based on Reinforcement Learning. The paper will soon be submitted to Neurocomputing Journal. I'm also starting to work on a task in SemEval 2023."
+        text = "My name is Seyed Arshan Dalili. I am a undergraduate student of Computer Engineering at Sharif University of Technology, and I will graduate with a bachelor's degree next year. My fields of interest are Natural Language Processing (NLP), Information Retrieval, Artificial Intelligence, and Machine Learning. I'm currently working on a journal paper about a novel model that labels sequences of news based on Deep Reinforcement Learning. The paper will soon be submitted to **Neurocomputing Journal** in days. I'm also starting to work on the **Clickbait Spoiling** task in **SemEval 2023** as my B.Sc. Project."
 
 
 
