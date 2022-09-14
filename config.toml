@@ -40,7 +40,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
-        url = "tel:#"
+        url = "tel:+98-912-070-9646"
         text = "+98-912-070-9646"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
