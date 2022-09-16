@@ -39,13 +39,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         location = "Sharif University of Technology, Tehran, Iran"
 
         [[params.contact.list]]
-        icon = "fas fa-phone-square"
-        url = "tel:+98-912-070-9646"
-        text = "+98-912-070-9646"
-        [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:arshandalili@gmail.com"
         text = "arshandalili@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:+98-912-070-9646"
+        text = "+98-912-070-9646"
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "https://arshandalili.github.io"
@@ -148,9 +148,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.languages.list]]
         name = "English"
         level = "Fluent"
-        [[params.languages.list]]
-        name = "Spanish"
-        level = "Basic"
+        
 
 
 
@@ -167,13 +165,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.interests.list]]
         name = "Astronomy"
         [[params.interests.list]]
-        name = "Photography"
-        [[params.interests.list]]
-        name = "Travelling"
-        [[params.interests.list]]
         name = "Video Games"
         [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
         name = "Movies"
+        [[params.interests.list]]
+        name = "Travelling"
         
 
 
@@ -185,7 +183,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "My name is Seyed Arshan Dalili. I am a undergraduate student of Computer Engineering at Sharif University of Technology, and I will graduate with a bachelor's degree next year. My fields of interest are Natural Language Processing (NLP), Information Retrieval, Artificial Intelligence, and Machine Learning. I'm currently working on a journal paper about a novel model that labels sequences of news based on Deep Reinforcement Learning. The paper will soon be submitted to **Neurocomputing Journal** in days. I'm also starting to work on the **Clickbait Spoiling** task in **SemEval 2023** as my B.Sc. Project."
+        text = "My name is Seyed Arshan Dalili. I am a undergraduate student of Computer Engineering at Sharif University of Technology, and I will graduate with a bachelor's degree next year. My fields of interest are Natural Language Processing (NLP), Information Retrieval, Artificial Intelligence, and Machine Learning. I'm currently working on a journal paper about a novel model that labels sequences of news based on Deep Reinforcement Learning. The paper will soon be submitted to **Neurocomputing Journal** in days. I'm also starting to work on the **Clickbait Spoiling** challenge in **SemEval 2023** as my B.Sc. Project."
 
 
 
@@ -278,9 +276,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         tagline = "Designed a novel early news classification model using reinforcement learning to label sequences of news and outperform SOTA models."
 
         [[params.publications.list]]
-        title = "Conference Paper - Clickbait Spoiling (B.Sc. Project, Ongoing)"
+        title = "Workshop Paper - Clickbait Spoiling (B.Sc. Project, Ongoing)"
         meta = "Will be submitted to **SemEval 2023**"
-        tagline = "A novel model for Clickbait Spoiling task."
+        tagline = "A novel model for Clickbait Spoiling challenge."
 
 
 
