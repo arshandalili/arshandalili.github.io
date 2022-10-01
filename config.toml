@@ -78,7 +78,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list.items]]
         details = "Pytorch, Tensorflow, Sklearn"
         [[params.skills.list.items]]
-        details = "Scipy, Numpy, Pandas, Django"
+        details = "Scipy, NLTK, Numpy, Pandas, Django"
         [[params.skills.list.items]]
         details = "Modelsim, Proteus Design Suite"
 
