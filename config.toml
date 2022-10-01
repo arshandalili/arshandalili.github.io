@@ -183,7 +183,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "My name is Seyed Arshan Dalili. I am a undergraduate student of Computer Engineering at Sharif University of Technology, and I will graduate with a bachelor's degree next year. My fields of interest are Natural Language Processing (NLP), Information Retrieval, Artificial Intelligence, and Machine Learning. I'm currently working on a journal paper about a novel model that labels sequences of news based on Deep Reinforcement Learning. The paper will soon be submitted to **Neurocomputing Journal** in days. I'm also starting to work on the **Visual Word Sense Disambiguation** challenge in **SemEval 2023** as my B.Sc. Project."
+        text = "My name is Seyed Arshan Dalili. I am a undergraduate student of Computer Engineering at Sharif University of Technology, and I will graduate with a bachelor's degree next year. My fields of interest are Natural Language Processing (NLP), Information Retrieval, Artificial Intelligence, and Machine Learning. I'm currently working on a journal paper about a novel model that labels sequences of news based on Deep Reinforcement Learning. The paper will be submitted to **Neurocomputing Journal** in weeks. I'm also starting to work on the **Visual Word Sense Disambiguation** challenge in **SemEval 2023** as my B.Sc. Project."
 
 
 
