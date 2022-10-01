@@ -203,7 +203,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.research.list]]
         name = "Visual Word Sense Disambiguation (B.Sc. Project, Ongoing)"
         date = "2022"
-        body = "Working on a novel model to spoil clickbaits and focus on question answering."
+        body = "Working on a model to select the corresponding image of ambiguous words in a specific context."
 
         [[params.research.list]]
         name = "Implemented Credible Early Detection Point model in Pytorch"
