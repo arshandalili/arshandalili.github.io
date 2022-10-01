@@ -272,7 +272,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.publications.list]]
         title = "Journal Paper - Early Fake News Detection Using Deep Reinforcement Learning"
-        meta = "Will be submitted to **Neurocomputing Journal** in days"
+        meta = "Will be submitted to **Neurocomputing Journal** in weeks"
         tagline = "Designed a novel early news classification model using reinforcement learning to label sequences of news and outperform SOTA models."
 
         [[params.publications.list]]
