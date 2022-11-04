@@ -128,7 +128,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         date = "2019"
         [[params.awards.list]]
         name = "University Entrance Exam"
-        body = "Ranked **6th nationwide** among 150,000 participant in Iran National University Entrance Exam (Konkour) in Mathematics Branch"
+        body = "Ranked **6th nationwide** among more than 164,000 participant in Iran National University Entrance Exam (Konkour) in Mathematics Branch"
         date = "2019"
         
 
@@ -194,16 +194,16 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.research]
         enable = true
+        
+        [[params.research.list]]
+        name = "Visual Word Sense Disambiguation (B.Sc. Project, Ongoing)"
+        date = "2022"
+        body = "Working on a model to select the corresponding image of ambiguous words in a specific context."
 
         [[params.research.list]]
         name = "Early Fake News Classification"
         date = "2022"
         body = "A novel early news classification model that uses reinforcement learning to label sequences of news and outperform SOTA models."
-
-        [[params.research.list]]
-        name = "Visual Word Sense Disambiguation (B.Sc. Project, Ongoing)"
-        date = "2022"
-        body = "Working on a model to select the corresponding image of ambiguous words in a specific context."
 
         [[params.research.list]]
         name = "Implemented Credible Early Detection Point model in Pytorch"
@@ -276,8 +276,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         tagline = "Designed a novel early news classification model using reinforcement learning to label sequences of news and outperform SOTA models."
 
         [[params.publications.list]]
-        title = "Workshop Paper - Visual Word Sense Disambiguation (B.Sc. Project, Ongoing)"
-        meta = "Will be submitted to **SemEval 2023**"
+        title = "Conference Paper - Multimodal Sense Using WordNet and Diffusion Dataset"
+        meta = "Fothcoming - **ACL 2023**"
+        tagline = "A dataset for multimodal sense disambiguation using WordNet and Diffusers."
+
+        [[params.publications.list]]
+        title = "Workshop Paper - Visual Word Sense Disambiguation (B.Sc. Project)"
+        meta = "Fothcoming - **SemEval 2023**"
         tagline = "A novel model for Visual Word Sense Disambiguation challenge."
 
 
