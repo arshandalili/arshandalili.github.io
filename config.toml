@@ -50,6 +50,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fas fa-globe"
         url = "https://arshandalili.github.io"
         text = "arshandalili.github.io"
+        [[params.contact.list]]
+        icon = "fab fa-github"
+        url = "https://github.com/arshandalili"
+        text = "arshandalili"
 
 
 
@@ -314,10 +318,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.social]
         enable = true
 
-        [[params.social.list]]
-        icon = "fab fa-github-square"
-        url = "//github.com/arshandalili"
-        title = "arshandalili"
         [[params.social.list]]
         icon = "fab fa-twitter-square"
         url = "//twitter.com/ArshanDalili"
