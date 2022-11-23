@@ -50,10 +50,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fas fa-globe"
         url = "https://arshandalili.github.io"
         text = "arshandalili.github.io"
-        [[params.contact.list]]
-        icon = "fab fa-github"
-        url = "https://github.com/arshandalili"
-        text = "arshandalili"
 
 
 
