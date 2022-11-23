@@ -316,6 +316,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.social.list]]
         icon = "fab fa-twitter-square"
+        url = "//github.com/arshandalili"
+        title = "arshandalili"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
         url = "//twitter.com/ArshanDalili"
         title = "@ArshanDalili"
         [[params.social.list]]
