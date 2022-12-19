@@ -272,12 +272,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.publications.list]]
         title = "Multimodal Sense Dataset Using WordNet and Text-to-Image Models"
-        meta = "Fothcoming - **ACL 2023**"
+        meta = "Forthcoming - **ACL 2023**"
         tagline = "A dataset for multimodal sense disambiguation using WordNet and Text-to-Image Models."
 
         [[params.publications.list]]
         title = "Visual Word Sense Disambiguation (B.Sc. Project)"
-        meta = "Fothcoming - **SemEval 2023**"
+        meta = "Forthcoming - **SemEval 2023**"
         tagline = "A novel model for Visual Word Sense Disambiguation challenge."
 
 
