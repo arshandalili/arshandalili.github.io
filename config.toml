@@ -183,7 +183,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "My name is Seyed Arshan Dalili. I am a undergraduate student of Computer Engineering at Sharif University of Technology, and I will graduate with a bachelor's degree next year. My fields of interest are Natural Language Processing (NLP), Information Retrieval, Artificial Intelligence, and Machine Learning. I am currently working on a conference paper about Multimodal Sense Dataset Using WordNet and Text-to-Image Models for ACL 2023. In addition, I am starting to work on Visual Word Sense Disambiguation challenge in SemEval 2023 as my B.Sc. project."
+        text = "My name is Seyed Arshan Dalili. I am a undergraduate student of Computer Engineering at Sharif University of Technology, and I will graduate with a bachelor's degree next year. My fields of interest are Natural Language Processing (NLP), Information Retrieval, Artificial Intelligence, and Machine Learning. I am working on Visual Word Sense Disambiguation challenge in SemEval 2023 as my B.Sc. project."
 
 
 
@@ -272,7 +272,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.publications.list]]
         title = "Multimodal Sense Dataset Using WordNet and Text-to-Image Models"
-        meta = "Forthcoming - **ACL 2023**"
+        meta = "Submitted to **ACL 2023**"
         tagline = "A dataset for multimodal sense disambiguation using WordNet and Text-to-Image Models."
 
         [[params.publications.list]]
