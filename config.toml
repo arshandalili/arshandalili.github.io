@@ -315,7 +315,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.social.list]]
-        icon = "fab fa-twitter-square"
+        icon = "fab fa-github"
         url = "//github.com/arshandalili"
         title = "arshandalili"
         [[params.social.list]]
