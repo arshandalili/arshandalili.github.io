@@ -271,7 +271,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.publications.list]]
-        title = "Visual Word Sense Disambiguation (B.Sc. Project)"
+        title = "Team SUT at SemEval-2023 Task 1: Prompt Generation for Visual Word Sense Disambiguation (B.Sc. Project)"
         meta = "**SemEval 2023**"
         tagline = "A novel model for Visual Word Sense Disambiguation challenge."
 
