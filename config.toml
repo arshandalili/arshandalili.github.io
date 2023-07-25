@@ -97,7 +97,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-
+    [params.note]
+        enable = true
+        text = "I got graduated and got my B.Sc. in Computer Engineering from Sharif University of Technology."
+        
+    
 
 
     [params.education]
@@ -106,7 +110,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.education.list]]
         degree = "Bachelor in Computer Engineering"
         university = "Sharif University of Technology, Tehran, Iran"
-        dates = "Sep. 2019 - Present"
+        dates = "Sep. 2019 - Jul. 2023"
         [[params.education.list]]
         degree = "Diploma of Mathematics"
         university = "Shahid Beheshti School, National Organization for Development of Exceptional Talents (NODET), Sari, Iran"
