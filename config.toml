@@ -99,7 +99,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.note]
         enable = true
-        text = "I got graduated and got my B.Sc. in Computer Engineering from Sharif University of Technology."
+        text = "I graduated and got my B.Sc. in Computer Engineering from Sharif University of Technology."
         
     
 
