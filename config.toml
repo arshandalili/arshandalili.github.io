@@ -222,11 +222,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.teaching.list]]
         title = "Artificial Intelligence"
         instructor = "Prof. Rohban"
-        date = "Sep. 2022 - Present"
+        date = "Sep. 2022 - Feb. 2023"
         [[params.teaching.list]]
         title = "Modern Information Retrieval"
         instructor = "Prof. Beigy"
-        date = "Sep. 2022 - Present"
+        date = "Sep. 2022 - Feb. 2023"
         [[params.teaching.list]]
         title = "Computer Architecture"
         instructor = "Prof. Sarbazi-Azad"
