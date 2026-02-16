@@ -16,8 +16,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
     description = "Homepage"
 
 
-    primaryColor = "#027DC4"
-    textPrimaryColor = "#292929"
+    primaryColor = "#2F2F2F"
+    textPrimaryColor = "#2F2F2F"
 
 
 
@@ -25,7 +25,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "Seyed Arshan Dalili"
-        tagline = "Undergraduate Student of Computer Engineering"
+        tagline = "Ph.D. Student in Computer Science and Engineering"
         avatar = "profile_pic.png"
 
 
@@ -36,16 +36,16 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.contact]
         enable = true
-        location = "Sharif University of Technology, Tehran, Iran"
+        location = "State College, PA"
 
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
-        url = "mailto:arshandalili@gmail.com"
-        text = "arshandalili@gmail.com"
+        url = "mailto:sbd5760@psu.edu"
+        text = "sbd5760@psu.edu"
         [[params.contact.list]]
         icon = "fas fa-phone-square"
-        url = "tel:+98-912-070-9646"
-        text = "+98-912-070-9646"
+        url = "tel:+18142803343"
+        text = "+1 814 280 3343"
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "https://arshandalili.github.io"
@@ -61,37 +61,40 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.skills.list]]
-        title = "Languages"
+        title = "ML & Data"
         [[params.skills.list.items]]
         details = "Python"
         [[params.skills.list.items]]
-        details = "C/C++"
+        details = "PyTorch"
         [[params.skills.list.items]]
-        details = "Java"
+        details = "Transformers"
         [[params.skills.list.items]]
-        details = "SQL/PostgreSQL"
+        details = "NumPy"
         [[params.skills.list.items]]
-        details = "Verilog, Assembly"
+        details = "Pandas"
+        [[params.skills.list.items]]
+        details = "NetworkX"
+        [[params.skills.list.items]]
+        details = "scikit-learn"
 
         [[params.skills.list]]
-        title = "Packages and Applications"
+        title = "Systems & Tools"
         [[params.skills.list.items]]
-        details = "Pytorch, Tensorflow, Sklearn"
+        details = "CUDA"
         [[params.skills.list.items]]
-        details = "NLTK, Scipy, Numpy, Pandas, Django"
+        details = "SQL"
         [[params.skills.list.items]]
-        details = "Modelsim, Proteus Design Suite"
-
-        [[params.skills.list]]
-        title = "Tools"
+        details = "Django"
+        [[params.skills.list.items]]
+        details = "Bash scripting"
         [[params.skills.list.items]]
         details = "Git"
         [[params.skills.list.items]]
         details = "Docker"
         [[params.skills.list.items]]
-        details = "Jira"
-        [[params.skills.list.items]]
         details = "LaTeX"
+        [[params.skills.list.items]]
+        details = "Linux"
 
 
 
@@ -99,7 +102,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.note]
         enable = true
-        text = "I graduated and got my B.Sc. in Computer Engineering from Sharif University of Technology."
+        text = "Advisor: Prof. Mehrdad Mahdavi | Co-advisor: Prof. Wenpeng Yin"
         
     
 
@@ -108,13 +111,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.education.list]]
-        degree = "Bachelor in Computer Engineering"
-        university = "Sharif University of Technology, Tehran, Iran"
-        dates = "Sep. 2019 - Jul. 2023"
+        degree = "Ph.D., Computer Science and Engineering"
+        university = "Pennsylvania State University, State College, PA"
+        dates = "Jan 2025 - Present"
         [[params.education.list]]
-        degree = "Diploma of Mathematics"
-        university = "Shahid Beheshti School, National Organization for Development of Exceptional Talents (NODET), Sari, Iran"
-        dates = "Sep. 2016 - Jun. 2019"
+        degree = "B.Sc., Computer Engineering"
+        university = "Sharif University of Technology, Tehran, Iran"
+        dates = "Sep 2019 - Jul 2023"
 
 
 
@@ -124,16 +127,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.awards]
-        enable = true
-
-        [[params.awards.list]]
-        name = "Full Scholarship"
-        body = "Received full scholarship (tuition waiver) from Sharif University of Technology for Bachelor's degree."
-        date = "2019"
-        [[params.awards.list]]
-        name = "University Entrance Exam"
-        body = "Ranked **6th nationwide** among more than 164,000 participant in Iran National University Entrance Exam (Konkour) in Mathematics Branch"
-        date = "2019"
+        enable = false
         
 
 
@@ -144,14 +138,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.languages]
-        enable = true
-
-        [[params.languages.list]]
-        name = "Farsi"
-        level = "Native"
-        [[params.languages.list]]
-        name = "English"
-        level = "Fluent"
+        enable = false
         
 
 
@@ -162,20 +149,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.interests]
-        enable = true
-
-        [[params.interests.list]]
-        name = "Running"
-        [[params.interests.list]]
-        name = "Astronomy"
-        [[params.interests.list]]
-        name = "Video Games"
-        [[params.interests.list]]
-        name = "Photography"
-        [[params.interests.list]]
-        name = "Movies"
-        [[params.interests.list]]
-        name = "Travelling"
+        enable = false
         
 
 
@@ -187,7 +161,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "My name is Seyed Arshan Dalili. I am a undergraduate student of Computer Engineering at Sharif University of Technology, and I will graduate with a bachelor's degree next year. My fields of interest are Natural Language Processing (NLP), Information Retrieval, Artificial Intelligence, and Machine Learning. I am working on Visual Word Sense Disambiguation challenge in SemEval 2023 as my B.Sc. project."
+        text = "Ph.D. student in Computer Science and Engineering at Pennsylvania State University, advised by Prof. Mehrdad Mahdavi (co-advised by Prof. Wenpeng Yin). Research spans mechanistic interpretability and representation learning for LLMs, federated learning and model merging, and hallucination mitigation. Collaborations include cancer multi-omics and Alzheimer's biomarker discovery."
 
 
 
@@ -200,19 +174,14 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
         
         [[params.research.list]]
-        name = "Visual Word Sense Disambiguation (B.Sc. Project, Ongoing)"
-        date = "2022"
-        body = "Working on a model to select the appropriate image for ambiguous words in a given context. Developing models with Transformers and BERT to 1) transform pictures and texts into a same space and 2) bring related pictures and texts that are semantically similar around each other. Also working on using pre-trained models like CLIP to select relevant images from ambiguous textual contexts."
+        name = "Graduate Research Assistant, Pennsylvania State University"
+        date = "Jan 2025 - Present"
+        body = "Advisor: Prof. Mehrdad Mahdavi. Research on mechanistic interpretability and representation learning for LLMs (e.g., sparse autoencoders), federated learning and model merging via distillation, and hallucination mitigation through inference-time steering. Collaborations on cancer multi-omics (with Prof. Jeffrey Maurice Peters) and Alzheimer's biomarkers (with Prof. Wenpeng Yin)."
 
         [[params.research.list]]
-        name = "Computational Semantics"
-        date = "2022"
-        body = "Exploring various methods for understanding the meaning of Natural Language and analyzing methods for enabling multimodal models to comprehend Natural Language. Particularly, work is being done to create a dataset to enable models to learn the semantics of both textual and visual contexts. WordNet and Text-to-Image models will be used to create a dataset of images that correspond to a given meaning of a word."
-
-        [[params.research.list]]
-        name = "Implemented Credible Early Detection Point model in Pytorch"
-        date = "2022"
-        body = "Implemented and published the CED model in Pytorch in order to make it easier to use compared to paper’s original old version of Tensorflow. Also, reviewed the mechanism of some fake news detection models such as Early Detection of Fake News on Social Media Through Propagation Path Classification with Recurrent and Convolutional Networks."
+        name = "Research Assistant, UKP Lab, TU Darmstadt"
+        date = "Aug 2024 - Nov 2024"
+        body = "Supervisor: Prof. Iryna Gurevych. Implemented Fisher-weighted averaging and uncertainty-based gradient matching; contributed code to MergeKit."
         
 
 
@@ -220,49 +189,30 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.teaching.list]]
-        title = "Artificial Intelligence"
-        instructor = "Prof. Rohban"
-        date = "Sep. 2022 - Feb. 2023"
+        title = "CMPSC 448: Machine Learning and Algorithmic AI (Penn State)"
+        instructor = "Prof. Mehrdad Mahdavi"
+        date = "Spring 2025"
         [[params.teaching.list]]
-        title = "Modern Information Retrieval"
-        instructor = "Prof. Beigy"
-        date = "Sep. 2022 - Feb. 2023"
-        [[params.teaching.list]]
-        title = "Computer Architecture"
-        instructor = "Prof. Sarbazi-Azad"
-        date = "Feb. 2022 - Sep. 2022"
-        [[params.teaching.list]]
-        title = "Computer Structure and Language"
-        instructor = "Prof. Sarbazi-Azad"
-        date = "Sep. 2021 - Feb. 2022"
-        [[params.teaching.list]]
-        title = "Fundamentals of Electrical and Electronic Circuits"
-        instructor = "Prof. Hemmatyar"
-        date = "Sep. 2021 - Feb. 2022"
-        [[params.teaching.list]]
-        title = "Advanced Programming"
-        instructor = "Dr. Salmani"
-        date = "Sep. 2020 - Feb. 2021"
+        title = "Teaching Assistant, Sharif University of Technology"
+        instructor = "Courses: Artificial Intelligence (x3), Modern Information Retrieval, Computer Architecture, Advanced Programming, Circuits"
+        date = "2020 - 2023"
 
 
     [params.experience]
         enable = true
 
         [[params.experience.list]]
-        title = "Advisor, National University Entrance Exam (Konkour)"
-        dates = "Jun. 2020 - Feb. 2021"
-        company = "Various Institutions"
-        location = "Sari, Iran"
+        title = "NLP Intern"
+        dates = "May 2023 - Jul 2023"
+        company = "ASR Gooyesh Pardaz"
+        location = "Tehran, Iran"
+        details = "Semantics and multimodal NLP; built large-scale IR models for Persian."
         [[params.experience.list]]
-        title = "Tutoring, High School Mathematics"
-        dates = "Jun. 2020 - Feb. 2021"
-        company = "Various Institutions"
+        title = "Tutor, High School Mathematics and Physics"
+        dates = "Jun 2020 - Feb 2021"
+        company = "Private tutoring"
         location = "Sari, Iran"
-        [[params.experience.list]]
-        title = "Tutoring, High School Physics"
-        dates = "Jun. 2020 - Feb. 2021"
-        company = "Various Institutions"
-        location = "Sari, Iran"
+        details = "One-on-one tutoring in mathematics and physics."
 
         
 
@@ -275,9 +225,34 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.publications.list]]
-        title = "Team SUT at SemEval-2023 Task 1: Prompt Generation for Visual Word Sense Disambiguation (B.Sc. Project)"
-        meta = "**SemEval 2023**"
-        tagline = "A novel model for Visual Word Sense Disambiguation challenge."
+        title = "Subspace-Aware Sparse Autoencoders for Mechanistic Interpretability (SASA)"
+        meta = "Submitted to ICML 2026"
+        tagline = "S. A. Dalili, M. Mahdavi."
+
+        [[params.publications.list]]
+        title = "Model Merging via Multi-Teacher Knowledge Distillation"
+        meta = "Submitted to ICML 2026 · [arXiv:2512.21288](https://arxiv.org/abs/2512.21288)"
+        tagline = "S. A. Dalili, M. Mahdavi."
+
+        [[params.publications.list]]
+        title = "Imaginations of WALL-E: Reconstructing Experiences with an Imagination-Inspired Module"
+        meta = "[arXiv:2308.10354](https://arxiv.org/abs/2308.10354)"
+        tagline = "Z. S. Taghavi, S. Gooran, S. A. Dalili, H. Amirzadeh, M. J. Nematbakhsh, H. Sameti."
+
+        [[params.publications.list]]
+        title = "SUT at SemEval-2023 Task 1: Prompt Generation for Visual Word Sense Disambiguation"
+        meta = "SemEval 2023 (ACL Anthology) · [Paper](https://aclanthology.org/2023.semeval-1.298/)"
+        tagline = "O. Ghahroodi, S. A. Dalili, S. Mesforoush, E. Asgari."
+
+        [[params.publications.list]]
+        title = "AIMA at SemEval-2024 Task 3: Simple Yet Powerful Emotion Cause Pair Analysis"
+        meta = "SemEval 2024 (ACL Anthology) · [Paper](https://aclanthology.org/2024.semeval-1.243/)"
+        tagline = "A. Ghahramani Kure, M. Dehghani, M. M. Abootorabi, N. Ghazizadeh, S. A. Dalili, E. Asgari."
+
+        [[params.publications.list]]
+        title = "AIMA at SemEval-2024 Task 10: History-Based Emotion Recognition in Hindi-English Code-Mixed Conversations"
+        meta = "SemEval 2024 (ACL Anthology) · [Paper](https://aclanthology.org/2024.semeval-1.244/)"
+        tagline = "M. M. Abootorabi, N. Ghazizadeh, S. A. Dalili, A. Ghahramani Kure, M. Dehghani, E. Asgari."
 
 
 
@@ -291,17 +266,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.information]
         enable = true
         [[params.information.list]]
-        title = "Natural Language Processing"
-        details = ""
-        [[params.information.list]]
-        title = "Information Retrieval"
-        details = ""
-        [[params.information.list]]
-        title = "Social Networks"
-        details = ""
-        [[params.information.list]]
-        title = "Artificial Intelligence and Machine Learning"
-        details = ""
+        title = "Academic Service"
+        [[params.information.list.items]]
+        details = "Reviewer, KDD 2025 Workshop: SciSocLLM."
+        [[params.information.list.items]]
+        details = "Committee Member, Mid-Atlantic Student Colloquium on Speech, Language and Learning (MASC-SLL 2025)."
 
 
 
@@ -325,7 +294,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fab fa-linkedin"
         url = "//linkedin.com/in/arshandalili"
         title = "arshandalili"
-
 
 
 
